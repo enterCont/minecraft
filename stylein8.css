@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Share+Tech&display=swap');
+.rapper {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+}
+.links {
+    padding: 14px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+}
+body {
+    font-family: "Share Tech", sans-serif;
+    background-image: url(/image/mine9.jpg);
+}
+.header {
+    display: flex;
+}
+.info {
+    display: flex;
+}
+.tom {
+    width: 600px;
+    position: absolute;
+    left: 377px;
+    bottom: 100px;
+    color: azure
+}
+.buttons {
+    position: absolute;
+    bottom: 70px;
+    left: 387px;
+}
+.facts_s {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.facts {
+    margin-top: 27px;
+    margin-left: 50px;
+    
+}
+
+.feedback {
+    font-family: "Share Tech", sans-serif;
+margin-left: 416px;
+max-width: 450px;
+}
+
+.tinp {
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.binp {
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.imgm {
+display: flex;
+font-size: 30px;
+color: azure;
+justify-content: center;
+}
+.strel {
+padding-top: 150px;
+}
+
+.IEM {
+border: 2px solid;
+border-radius: 15px;
+border-color: red;
+max-width: 350px;
+margin-left: 1000px;
+margin-top: -250px;
+color: azure;
+}
+
+.butiem {
+justify-self: center;
+}
+
+.anim_ver {
+    text-align: center;
+    animation: anim_signal 1s infinite linear;
+    color: azure;
+}
+
+@keyframes anim_signal {
+  0% {
+text-shadow: 0px 0px 0px rgb(255, 0, 0);
+  }
+  50% {
+    text-shadow: 1px 3px 30px rgb(0, 4, 255);
+  }
+  100% {
+    text-shadow: 0px 0px 0px rgb(0, 255, 85);
+  }
+}
