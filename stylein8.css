@@ -11,7 +11,7 @@
 }
 body {
     font-family: "Share Tech", sans-serif;
-    background-image: url(/image/mine9.jpg);
+    background-image: url(image/mine9.jpg);
 }
 .header {
     display: flex;
